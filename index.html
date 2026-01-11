@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cemrik Burger: Mükemmel Sosun Peşinde</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="game-container">
+        <div id="background-layer"></div>
+        <div id="character-layer">
+            <img id="character-sprite" src="" alt="Character">
+        </div>
+        
+        <div id="ui-layer">
+            <div id="dialog-box">
+                <div id="character-name">İsim</div>
+                <div id="dialog-text">Metin buraya gelecek...</div>
+                <div id="click-prompt">Devam etmek için tıkla...</div>
+            </div>
+            
+            <div id="choice-container" class="hidden">
+                <!-- Seçenekler buraya dinamik olarak eklenecek -->
+            </div>
+        </div>
+
+        <div id="start-screen">
+            <div class="start-content">
+                <h1>CEMRİK BURGER</h1>
+                <p>Mükemmel Sosun Peşinde</p>
+                <button id="start-button">Maceraya Başla</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
